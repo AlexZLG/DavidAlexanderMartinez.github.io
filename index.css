@@ -210,19 +210,146 @@ nav .navlinks li a:hover {
     line-height: 1.5;
 }
 
+#Proyecto-1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+#Proyecto-2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+
+#Proyecto-3 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+@media (max-width: 480px) {
+.wrapper {
+    padding: 0 2px;
+    }
+.container #foto-div {
+    width: 140px;
+    height: 140px;
+    border-width: 6px;
+    }
+.texto h1 {
+    font-size: 1.3rem;
+    }
+.texto p, .container-2 p {
+    font-size: 1rem;
+    }
+.proyecto-texto {
+    font-size: 16px;
+    }
+nav .navlinks li a {
+    margin-right: 1rem;
+    font-size: 1rem;
+    }
+}
+
 @media (max-width: 900px) {
-    .container, .container-2 {
-        flex-direction: column;
-        align-items: center;
-        gap: 2.5rem;
+.container, .container-2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
     }
+.wrapper {
+    padding: 0 8px;
+    }
+.logo .logo-text {
+    font-size: 20px;
+    }
+.proyecto-texto {
+    font-size: 22px;
+    }
+}
+
+
+
+@media (max-width: 1366px) {
     .wrapper {
-        padding: 0 8px;
+    width: 98%;
+    padding: 0 10px;
     }
-    .logo .logo-text {
-        font-size: 20px;
+    .container, .container-2 {
+    gap: 2rem;
     }
-    .proyecto-texto {
-        font-size: 22px;
+    .texto h1 {
+    font-size: 2.3rem;
     }
+}
+
+
+@media (max-width: 768px) {
+.wrapper {
+    width: 100%;
+    padding: 0 5px;
+    }
+.container, .container-2 {
+    flex-direction: column;
+    gap: 1.5rem;
+    }
+.container #foto-div {
+    width: 200px;
+    height: 200px;
+    border-width: 8px;
+    }
+.texto h1 {
+    font-size: 1.7rem;
+    }
+.proyecto-texto {
+    font-size: 18px;
+    }
+}
+
+
+@media (max-width: 320px) {
+.wrapper {
+    padding: 0 2px;
+}
+.logo {
+    
+    position: relative;
+    left: 30px;
+}
+.navlinks {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.container #foto-div {
+    width: 120px;
+    height: 120px;
+    border-width: 5px;
+}
+.texto h1 {
+    font-size: 1.1rem;
+}
+.texto p, .container-2 p {
+    font-size: 0.9rem;
+}
+.proyecto-texto {
+    font-size: 14px;
+}
+nav .navlinks li a {
+    margin-right: 1rem;
+    font-size: 0.9rem;
+}
 }
